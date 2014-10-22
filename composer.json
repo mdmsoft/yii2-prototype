@@ -1,0 +1,25 @@
+{
+	"name": "mdmsoft/yii2-prototype",
+	"description": "Prototype emulator for yii2 component",
+	"keywords": ["yii2", "prototype", "behavior"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/mdmsoft/yii2-prototype/issues",
+		"source": "https://github.com/mdmsoft/yii2-prototype"
+	},
+	"authors": [
+		{
+			"name": "Misbahul Munir",
+			"email": "misbahuldmunir@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"mdm\\prototype\\": ""
+		}
+	}
+}
